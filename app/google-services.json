@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "78493222784",
+    "firebase_url": "https://buppapp-6701e-default-rtdb.firebaseio.com",
+    "project_id": "buppapp-6701e",
+    "storage_bucket": "buppapp-6701e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78493222784:android:401480f987c7964dab2365",
+        "android_client_info": {
+          "package_name": "com.teamshor.audiometry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78493222784-9p121oq0jsgf1lnkci03k2uchmo3e9jk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamshor.audiometry",
+            "certificate_hash": "fead03da209d08f9d3f570e50f8374824dcd90b8"
+          }
+        },
+        {
+          "client_id": "78493222784-lnl1d57sbviil5uphrdiba1o9lcc1den.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamshor.audiometry",
+            "certificate_hash": "2069c2e2eeda456b11fabd1e219f76c1e563452d"
+          }
+        },
+        {
+          "client_id": "78493222784-t9s10m73o9tg9oe4rqvnbe4vevgjp9dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamshor.audiometry",
+            "certificate_hash": "af44be28cb0fa6453cf6f87daf805b8dc777c556"
+          }
+        },
+        {
+          "client_id": "78493222784-c964rkl0hntmunjd0o7j3nef8oi8ccth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIXDgojMgS8HzBzAjzD934fxcyyFtVSVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78493222784-c964rkl0hntmunjd0o7j3nef8oi8ccth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

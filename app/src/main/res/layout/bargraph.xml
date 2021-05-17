@@ -1,0 +1,378 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/red"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Audiometry \nreport"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_weight="0.5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bar_timestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="March 21,2021 20:20pm"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/finish_cv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="45dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Report"
+                        android:textColor="@color/black"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/view_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="80dp"
+                        android:background="@color/grey_30"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/image_leftear"
+                        app:layout_constraintBottom_toBottomOf="@+id/leftear_text"
+                        app:layout_constraintEnd_toStartOf="@+id/leftear_text"
+                        app:layout_constraintTop_toTopOf="@+id/leftear_text" />
+
+
+                    <TextView
+                        android:id="@+id/leftear_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Left Ear"
+                        android:textColor="#000000"
+                        android:textSize="21dp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/view_l" />
+
+
+                    <TextView
+                        android:id="@+id/l_category_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Moderate hearing loss"
+                        android:textColor="#040303"
+                        android:textSize="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/leftear_text" />
+
+                    <TextView
+                        android:id="@+id/l_dblevel_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="(41 to 70 dB Hz)"
+                        android:textColor="#000000"
+                        android:textSize="13dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/l_category_txt" />
+
+                    <TextView
+                        android:id="@+id/l_content_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="Difficulty understanding speech, higher volume levels are required for hearing TV and radio"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/l_dblevel_txt" />
+                    <View
+                        android:id="@+id/left_border"
+                        android:layout_width="0dp"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@color/grey_30"
+                        app:layout_constraintEnd_toEndOf="@+id/l_content_txt"
+                        app:layout_constraintStart_toStartOf="@+id/l_content_txt"
+                        app:layout_constraintTop_toBottomOf="@+id/l_content_txt" />
+
+                    <TextView
+                        android:id="@+id/rightear_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Right ear"
+                        android:textColor="#000000"
+                        android:textSize="21dp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/left_border" />
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/image_rightear"
+                        app:layout_constraintBottom_toBottomOf="@+id/rightear_txt"
+                        app:layout_constraintStart_toEndOf="@+id/rightear_txt"
+                        app:layout_constraintTop_toTopOf="@+id/rightear_txt"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/r_category_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Moderate hearing loss"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/rightear_txt" />
+
+                    <TextView
+                        android:id="@+id/r_dblevel_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="(41 to 70 db HZ)"
+                        android:textColor="#000000"
+                        android:textSize="13dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/r_category_txt" />
+
+                    <TextView
+                        android:id="@+id/r_content_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="Difficulty understanding speech, higher volume levels are required for hearing TV and radio"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toBottomOf="@+id/r_dblevel_txt" />
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/cardView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/r_content_txt">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:background="#F9F9FC"
+                            android:layout_height="match_parent" >
+
+                            <ImageView
+                                android:id="@+id/dbarrow"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:src="@drawable/db_arrow"
+                                android:layout_marginLeft="30dp"
+                                app:layout_constraintStart_toEndOf="@+id/hzarrow"
+                                app:layout_constraintTop_toTopOf="parent" />
+                            <ImageView
+                                android:id="@+id/hzarrow"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="25dp"
+                                android:src="@drawable/hz_arrow"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <com.github.mikephil.charting.charts.HorizontalBarChart
+                                android:id="@+id/barchart"
+                                android:layout_width="match_parent"
+                                android:layout_height="500dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/hzarrow" />
+
+                            <Button
+                                android:id="@+id/btn_audiograph"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:layout_marginTop="35dp"
+                                android:background="@drawable/btn_rounded_no"
+                                android:fontFamily="@font/montserrat"
+                                android:text="View Audiograph"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginBottom="40dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/barchart" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/recom_head"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Recommendation"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/cardView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="It is recommended to visit a doctor who specialises in ENT for further investigation."
+                        app:layout_constraintTop_toBottomOf="@id/recom_head"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_margin="35dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="15sp"
+                        android:id="@+id/recom_text"
+                        />
+
+
+
+                    <Button
+                        android:id="@+id/btn_homepage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="60dp"
+                        android:background="@drawable/btn_start"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Back to homepage"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:ems="10"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/recom_text"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

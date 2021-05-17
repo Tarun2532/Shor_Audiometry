@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">SHOR</string>
+    <string name="open_video"><u>open video</u></string>
+    <string name="open_audio"><u>open audio</u></string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYnVwcGFwcCIsImEiOiJja2prMHI1bmsxcGF3MnJvN202enNtczhqIn0.oGcda3RXGaqkXIPzmT4waw</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="left_describe"><i>Hearing Test in progress</i> \n\n You will hear a series of 3 tones in the <b><u>LEFT EAR</u></b>.\nThese tones will be varying in terms of frequency and loudness.
+
+    </string>
+    <string name="right_describe">
+        <i>Hearing Test in progress</i>\n\n You will hear a series of 3 tones in the <b><u>RIGHT EAR </u></b>.\nThese tones will be varying in terms of frequency and loudness.
+
+    </string>
+    <string name="right_title">Right ear</string>
+    <string name="left_title">Left ear</string>
+    <string name="level">1000DB \n 25HZ</string>
+    <string name="one">Over a billion people are at risk of hearing loss simple by the urban noises exposed to every day without being aware of it.</string>
+    <string name="two">We at SHOR offer an audiometry test for a quick screening to check you hearing at the comfort of your home.</string>
+    <string name="three">Audiometry test helps provides an insight on whether you should visit an audiologist for a through diagnosis.</string>
+    <string name="four">The test results may not be 100% accurate due to the scenarios of where the test is being conducted and the accessories used but will give you a fair idea of your hearing conditions.</string>
+    <string name="one_topic">Hey</string>
+    <string name="two_topic">The Audiometry Test</string>
+    <string name="three_topic">Insightful results</string>
+    <string name="four_topic">Disclaimer</string>
+    <string name="slides_text"><u> I understand, skip to home page </u></string>
+    <string name="terms"><u>Terms and conditions.</u></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Enter OTP, received by developers</string>
+    <string name="action_sign_in">  Activate SHOR  </string>
+    <string name="permission_not_granted">Not granted</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_user_pwd">User_pwd</string>
+    <string name="important_notice">It is recommended to conduct the test in a <b>Quiet place</b>
+        \n\n(optional)\nFor more accuracy Repeat the test with another earphones and check the difference </string>
+    <string name="i_understand"><u>I understand</u></string>
+    <string name="back"><u>Back</u></string>
+    <string name="d">An audiometry exam tests how well your hearing functions. It tests both the intensity and the tone of sounds, balance issues, and other issues related to the function of the inner ear.
+        <br> <br> </br>The unit of measure for sound intensity is the decibel (dB). A healthy human ear can hear quiet sounds such as whispers. These are about 20 dB. A loud sound such as a jet engine is between 140 and 180 dB.
+            </br>
+        <br>
+            <br> </br>The tone of a sound is measured in cycles per second. The unit of measure for tone is Hertz (Hz). Low bass tones measure around 50 Hz. Humans can hear tones between 20-20,000 Hz. Human speech generally falls in the 500-3,000 Hz range.
+        </br>
+        <br>
+            <br> </br>SHOR mimics the same type of tones and sound intensity produced by the audiogram helps provides an insight on whether you should visit an audiologist for a through diagnosis.
+        </br>
+    </string>
+    <string name="t2">This has to be performed in quiet place to get accurate results and the results can be obtained by the user itself without the need of an audiologist.
+The test results maybe not be 100% accurate due to the where the test is being conducted and the accessories used but will give you an fair idea of you hearing condition.
+    <br> <br> Usage of a good quality headphones that can withstand high frequency and loudness is a necessity to get accurate results.</br></br></string>
+    <string name="vision">Our solution aims to provide holistic views of a noise event and understand when sound becomes noise.
+        <br> </br> <br> We are crowdsourcing data on noise events and citizens perception of them that will help us gain deeper insights about noise in general and help in developing better solutions. </br>
+        <br> </br> <br> At the same time, we are delivering value by providing a platform for civic engagement where citizens can help the police to monitor and manage sound.We hope to spark discussions among hyperlocal communities and help the citizens understand noise in terms of metrics that they can relate to. </br></string>
+    <string name="reset"><u>Reset</u></string>
+
+
+</resources>
